@@ -1,8 +1,8 @@
+
 import Inicio from "./inicio";
 
-export default function Corpo(){
-
+export default function Corpo({inicio, setInicio}){
     return(
-        <Inicio/>
+        inicio ? <Inicio inicio={inicio} setInicio={setInicio}/> : ""
     );
 }

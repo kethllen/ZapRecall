@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.root{
+.conteudo{
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -9,12 +9,10 @@
     justify-content: center;
 }  
 .logo{
-    height: 279px;
+    height: 260px;
     width: 218px;
-    margin-top: 20%;
-    margin-bottom: 15%;
     /* topo | direita | inferior | esquerda */
-    margin: 20% auto 15% auto ;
+    margin: 6% auto 7% auto ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +21,6 @@
 .logo ion-icon{
     height: 218px;
     width: 172px;
-    margin-bottom: 16px;
     color: #FFEF61;
 
 }
@@ -48,7 +45,7 @@
     top: 773px;
     border-radius: 12px;
     align-items: center;
-    margin-top: 10%;
+    margin-top:1%;
     padding: 24px, 65px, 24px, 65px;
     border: 3px solid #FFEF61;
     display: flex;
@@ -87,4 +84,39 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+}
+.logoNav{
+    height: 54px;
+    width: 141px;
+    left: 26px;
+    top: 26px;
+    display: flex;
+    align-items: center;
+}
+.logoNav ion-icon{
+    height: 54px;
+    width: 43px;
+    color: #FFEF61;
+}
+.logoNav span{
+    height: 20px;
+    width: 79px;
+    margin-left: 14px;
+    font-family:'Merriweather', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card{
+    height: 575.75px;
+    width: 392px;
+    left: 524px;
+    top: 224.125px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px #0000001F;
+
 }
