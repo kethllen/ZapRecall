@@ -1,16 +1,16 @@
 import { useState } from "react";
-import Corpo from "./componentes/corpo";
-import Navbar from "./componentes/navbar";
+import Corpo from "../Corpo";
+import Navbar from "../Navbar";
+
 
 
 export default function App(){
     const [inicio, setInicio] = useState(true);
+    const [fim, setFim] = useState(false);
     return(
-        <div>
             <>
                 {inicio ? "" : <Navbar/>}
-                <Corpo inicio={inicio} setInicio={setInicio}/>
+                <Corpo inicio={inicio} setInicio={setInicio} fim={fim} setFim={setFim}/>
             </>
-        </div>
     );
 }

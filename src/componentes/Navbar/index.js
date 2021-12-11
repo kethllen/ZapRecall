@@ -1,9 +1,10 @@
+import LogoMini from "../../assets/logo-mini.png"
+
 export default function Navbar(){
 
     return(
         <div className="logoNav">
-            <ion-icon name="flash-outline"></ion-icon>
-            <span>ZapRecall</span>
+            <img src={LogoMini} alt="logo"></img>
         </div>
     );
 }

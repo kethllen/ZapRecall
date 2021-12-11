@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
 .conteudo{
     display: flex;
     width: 100%;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -25,27 +27,12 @@
 
 }
 
-.logo span{
-    height: 45px;
-    width: 177px;
-    font-family:'Merriweather', serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-}
-
 .iniciar{
     height: 72px;
     width: 345px;
-    left: 547px;
-    top: 773px;
     border-radius: 12px;
     align-items: center;
-    margin-top:1%;
+    margin-bottom:4%;
     padding: 24px, 65px, 24px, 65px;
     border: 3px solid #FFEF61;
     display: flex;
@@ -69,10 +56,10 @@
 .imputMeta {
     height: 49px;
     width: 345px;
+    margin-bottom:2%;
     border-radius: 12px;
     padding: 24px, 65px, 24px, 16px;
     border: 1px solid #000000;
-    margin: auto;
 }
 .imputMeta::placeholder{
     height: 19px;
@@ -119,9 +106,9 @@
     margin: auto;
 
     position: relative;
-    transition: all .5s;
+    /* transition: all .5s; */
     transform-style: preserve-3d;
-}
+} 
 .face{
     height: 100%;
     width: 100%;
@@ -132,7 +119,7 @@
     backface-visibility: hidden;
     transition: all .5s;
     transform-style: preserve-3d;
-  }
+  } 
   .back-face {
     transform: rotateY(180deg);
   }
@@ -166,23 +153,26 @@
     
 }
 .front-face .questao{
+    width: 294px;
+
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 33px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
 
 }
 .resposta{
+    width: 294px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
 }
 
 .contador{
@@ -256,3 +246,40 @@
 .bordaZap{
     border: 5px solid #FFEF61
 }
+.tituloFinal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.imgFinal{
+    height: 42px;
+    width: 42px;
+}
+.mensagemFinal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.template{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+} 
