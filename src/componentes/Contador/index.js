@@ -1,5 +1,5 @@
 export default function Contador({contador, lengthContador}){
     return(
-        <div className="contador">{contador+1}/{lengthContador}</div>
+        <div className="contador" data-identifier="counter">{contador+1}/{lengthContador}</div>
     )
 }

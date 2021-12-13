@@ -12,8 +12,8 @@ export default function Corpo({inicio, setInicio, fim, setFim}){
     return(
         inicio ? <Inicio inicio={inicio} setInicio={setInicio} setInput={setInput} input={input}/> : 
         !fim ? <Cards setFim={setFim} total={total} setTotal={setTotal}/>:
-        total+1>=input ? <Parabens setInicio={setInicio} input={input} setInput={setInput}/>:
-        <Puts total={total} setInicio={setInicio} setInput={setInput}/>
+        total+1>=input ? <Parabens setInicio={setInicio} setInput={setInput} setTotal={setTotal} setFim={setFim}/>:
+        <Puts total={total} setInicio={setInicio} setInput={setInput} setTotal={setTotal} setFim={setFim}/>
     );
 }
 

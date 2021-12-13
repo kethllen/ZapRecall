@@ -15,7 +15,7 @@ export default function Status({setResultado}){
                 <span>esforço</span>
             </div>
             <div className="zap" onClick={()=>setResultado(4)}>
-                <span>Zap</span>
+                <span>Zap!</span>
                 </div>
         </div>
     )
