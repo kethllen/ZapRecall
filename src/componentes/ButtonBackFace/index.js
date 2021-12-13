@@ -1,6 +1,8 @@
+import Turn from "../../assets/turn.png"
+
 export default function ButtonBackFace({setquestao, setcontador, contador, setResultado,lengthContador, setFim,setTotal, total, resultado}){
     return(
-        <button className="virar" onClick={() => {
+        <button className="virar" data-identifier="arrow" onClick={() => {
            if(contador+1 < lengthContador){
                 console.clear();
                 console.log(total)
@@ -16,7 +18,7 @@ export default function ButtonBackFace({setquestao, setcontador, contador, setRe
                 setFim(true)
            }
         }}>
-            <ion-icon name="arrow-undo"></ion-icon>
+            <img src={Turn}></img>
         </button>
     );
 }

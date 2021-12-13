@@ -1,0 +1,52 @@
+.card{
+    height: 500px;
+    width: 360px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px #0000001F;
+    margin: auto;
+
+    position: relative;
+    /* transition: all .5s; */
+    transform-style: preserve-3d;
+} 
+.face{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all .5s;
+    transform-style: preserve-3d;
+  }
+  
+  .virar{
+    height: 35px;
+    width: 40px;
+    position: absolute;
+    right: 2px;
+    bottom: 4px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.virar img{
+    height: 100%;
+    width: 100%;
+}
+.bordaAprendiAgora{
+    border: 5px solid #000000
+}
+.bordaNaoLembrei{
+    border: 5px solid #F64848
+}
+.bordaLembreiComEsforco{
+    border: 5px solid #62DB38
+}
+.bordaZap{
+    border: 5px solid #FFEF61
+}
+.cardVirarBaixo{
+    transform: rotateY(-180deg);
+  }

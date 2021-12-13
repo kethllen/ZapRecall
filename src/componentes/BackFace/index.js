@@ -1,3 +1,4 @@
+import "./style.css"
 import Questao from "../Questao"
 import Contador from "../Contador"
 import Resposta  from "../Resposta"

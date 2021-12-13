@@ -4,7 +4,7 @@ import ButtonFrontFace from "../ButtonFrontFace"
 
 export default function FrontFace({questao,setquestao, contador, lengthContador}){
     
-    return (<div className="front-face face" data-identifier="front-face" onclick="virarCartaBaixo(this)" >
+    return (<div className="front-face face" data-identifier="front-face" >
                 <Contador contador={contador} lengthContador={lengthContador}/>
                 <Questao questao={questao}/>
                 <ButtonFrontFace setquestao={setquestao}/>

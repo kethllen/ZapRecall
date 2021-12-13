@@ -1,3 +1,4 @@
+import "./style.css"
 import {useState} from 'react'
 import Logo from "../../assets/logo.png"
 

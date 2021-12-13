@@ -1,3 +1,4 @@
+import "./style.css"
 import FrontFace from "../FrontFace"
 import BackFace from "../BackFace"
 

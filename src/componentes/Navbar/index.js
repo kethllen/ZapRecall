@@ -1,3 +1,4 @@
+import "./style.css"
 import LogoMini from "../../assets/logo-mini.png"
 
 export default function Navbar(){
